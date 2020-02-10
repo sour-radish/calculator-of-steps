@@ -1,7 +1,7 @@
 length_stairs = int(input('input length the staircase, cm '))
 hight_stairs = int(input('input hight the staircase, cm '))
 
-for steps in range(1, 51):
+for steps in range(1, 36):
     step_hight = round(hight_stairs / steps, 1)    
     step_length = round(length_stairs / steps, 1)
     
